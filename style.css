@@ -1,0 +1,191 @@
+:root {
+	--plus-row: 150px;
+	--plus-column: 150px;
+}
+.heading{
+    margin: 0px 36%;
+    display: flex;
+}
+.background{
+	background-image: url('board.jpg');
+    background-size: cover;
+}
+.start-button{
+	width: 100px;
+    height: 20px;
+    margin: 29px 20px;
+}
+.whole-container{
+	display: flex;
+	flex-direction: row;
+    margin: 0 22%;
+}
+.board{
+	background-image: url('board.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.point{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+}
+.point[data-row="row1"]{	
+	top: 0;
+}
+.point[data-row="row2"]{	
+	top:  var(--plus-row);
+}
+.point[data-row="row3"]{	
+	top: calc(var(--plus-row) * 2);
+}
+.point[data-row="row4"]{	
+	top: calc(var(--plus-row) * 3);
+}
+.point[data-row="row5"]{	
+	top: calc(var(--plus-row) * 4);
+}
+.point[data-row="row6"]{	
+	top: calc(var(--plus-row) * 5);
+}
+.point[data-row="row7"]{	
+	top: calc(var(--plus-row) * 6);
+}
+.point[data-row="row8"]{	
+	top: calc(var(--plus-row) * 7);
+}
+.point[data-column="column1"]{	
+	left: 0;
+}
+.point[data-column="column2"]{	
+	left: var(--plus-column);
+}
+.point[data-column="column3"]{	
+	left: calc(var(--plus-column) * 2);
+}
+.point[data-column="column4"]{	
+	left: calc(var(--plus-column) * 3);
+}
+.point[data-column="column5"]{	
+	left: calc(var(--plus-column) * 4);
+}
+.point[data-column="column6"]{	
+	left: calc(var(--plus-column) * 5);
+}
+.point[data-column="column7"]{	
+	left: calc(var(--plus-column) * 6);
+}
+.point[data-column="column8"]{	
+	left: calc(var(--plus-column) * 7);
+}
+.card{
+	background-image: url(card.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+	position: absolute;
+}
+.symbol{
+	height: 131px;
+	width: 100px;	
+}
+.symbol[data-symbol="1"]{
+	background-image: url(symbol1.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="2"]{
+	background-image: url(symbol2.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="3"]{
+	background-image: url(symbol3.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="4"]{
+	background-image: url(symbol4.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="5"]{
+	background-image: url(symbol5.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="6"]{
+	background-image: url(symbol6.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="7"]{
+	background-image: url(symbol7.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="8"]{
+	background-image: url(symbol8.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="9"]{
+	background-image: url(symbol9.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="10"]{
+	background-image: url(symbol10.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="11"]{
+	background-image: url(symbol11.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="12"]{
+	background-image: url(symbol12.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="13"]{
+	background-image: url(symbol13.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="14"]{
+	background-image: url(symbol14.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+.symbol[data-symbol="15"]{
+	background-image: url(symbol15.jpg);
+	background-size: cover;
+	height: 131px;
+	width: 100px;
+}
+
+.point:hover{
+	cursor: pointer;
+}
+
+
+
